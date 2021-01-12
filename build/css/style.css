@@ -19,15 +19,13 @@ p {
 }
 .topNubex {
   position: fixed;
-  right: 45px;
-  bottom: 45px;
-}
-#topNubex {
-  position: fixed;
-  right: 45px;
-  bottom: 45px;
+  right: 60px;
+  bottom: 60px;
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20px;
+  display: none;
 }
 .d-flex {
   display: -webkit-box;
