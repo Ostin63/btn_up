@@ -1,0 +1,12 @@
+.topNubex {
+  position: fixed;
+  right: 45px;
+  bottom: 45px;
+}
+#topNubex {
+  position: fixed;
+  right: 45px;
+  bottom: 45px;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
