@@ -19,13 +19,35 @@ p {
 }
 .topNubex {
   position: fixed;
+  width: 40px;
+  height: 40px;
   right: 60px;
   bottom: 60px;
+  padding-bottom: 6px;
+  color: #8B7EAC;
+  border: 3px solid #8B7EAC;
+  border-radius: 50%;
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
   font-family: 'Ubuntu', sans-serif;
-  font-size: 20px;
+  font-size: 27px;
+  line-height: 27px;
+  cursor: pointer;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
   display: none;
+}
+.topNubex:hover,
+.topNubex:focus {
+  color: #fff;
+  background: #8B7EAC;
+  -webkit-box-shadow: 0px 0px 6px 0px #8B7EAC;
+          box-shadow: 0px 0px 6px 0px #8B7EAC;
+}
+.topNubex:active {
+  -webkit-box-shadow: 0px 0px 1px 0px #8B7EAC;
+          box-shadow: 0px 0px 1px 0px #8B7EAC;
 }
 .d-flex {
   display: -webkit-box;
